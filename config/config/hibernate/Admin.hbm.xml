@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.Admin" table="admin">
+        <id name="id"  type="string">
+            <generator class="uuid"/>
+        </id>
+        <property name="username" type="java.lang.String"/>
+        <property name="password" type="java.lang.String"/>
+        <property name="role" type="java.lang.String"></property>
+        <property name="userManage" type="boolean"/>
+        <property name="checkUser" type="boolean"/>
+        <property name="userMsg" type="boolean"/>
+        <property name="userAdvice" type="boolean"/>
+        <property name="userATM" type="boolean"/>
+        <property name="orderManage" type="boolean"/>
+        <property name="adminManage" type="boolean"/>
+        <property name="msgManage" type="boolean"/>
+        <property name="activitySet" type="boolean"/>
+        <property name="city" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

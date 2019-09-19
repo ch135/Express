@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.UserChargeMoney" table="UserChargeMoney">
+        <id name="id"  type="string">
+            <generator class="assigned"/>
+        </id>
+        <property name="userId" type="string"/>
+        <property name="mobile" type="string"/>
+        <property name="money" type="java.lang.Double"/>
+        <property name="date" type="java.sql.Timestamp"></property>
+        <property name="chargeType" type="string"/>
+        <property name="results" type="string"/>
+    </class>
+</hibernate-mapping>

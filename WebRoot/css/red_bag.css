@@ -1,0 +1,199 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-color:#209DE5;#/*E6E6E6*/
+}
+a{
+	 text-decoration:none;
+	 color:white;
+}
+.title-img-box{
+	padding-top: 20px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.title-img{
+	display:block;
+	text-align: center;
+	width: 100%;
+	max-width: 900px;
+}
+.content-box{
+ 	position: relative;  
+	z-index: 100;
+	width: 100%;
+	min-height: 1200px;
+	margin-top: 50%;
+}
+.list-box{
+	padding-top: 30px;
+	width: 90%;
+	min-height:100px;
+	border-radius: 1vmin;
+	background-color: blue;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0.6);
+	z-index: 20;
+	padding-bottom: 30px;
+}
+.activity_rule{
+	width: 90%;
+}
+.activity_rule h1{
+	text-align: center;
+	font-size: 26px;
+	padding: 20px 0;
+	color: white;
+}
+.activity_rule ul{
+	width: 95%;
+	font-size:22px;
+	list-style: none;
+	color: #FFFFFF;
+}
+.activity_rule ul li{
+	padding: 10px 0;
+}
+.activity_rule ul div.circle{
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	padding: 2px 8px;
+	background-color:white;
+	color: black;
+}
+.redBag{
+	width: 80%;
+	max-width: 800px;
+	background-color: #FFFFFF;
+	height: 160px;
+	border-radius: 5px;
+	border-top:4px dotted #3385FF; 
+	border-bottom: 5px solid #3385FF;
+}
+.money{
+	width: 30%;
+	height: 100%;
+	border-right: 2px dashed #E6E6E6;
+	float: left;
+	text-align: center;
+}
+.money h1{
+	color: #DB4B4A;
+	font-size: 40px;
+	display: inline-block;
+	line-height:160px;
+}
+.useRule{
+	width: 69%;
+	height: 100%;
+	float: left;
+}
+.useRule ul{
+	width: 60%;
+	text-align: center;
+	font-size: 23px;
+	padding-top:50px;
+	color:#8F8F8F; 
+}
+.useRule ul li{
+	padding-bottom:10px; 
+}
+.tishi{
+	display: inline-block;
+	width: 100%;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 40px;
+	color: #8F8F8F;
+}
+button{
+	max-width: 800px;
+	display:block;
+	border-style:none;
+	border-radius: 5px; 
+	background-color:#3385FF; 
+	text-align: center;
+	width: 80%;
+	padding: 10px 0;
+	font-size: 30px;
+	color: white;
+	margin: 0 auto;
+}
+.tooLate{
+	text-align: center;
+	padding: 20px 0;
+}
+.phoneNum{
+	margin: 0 auto;
+	width: 100%;
+}
+input{
+	border-style:none;
+	max-width: 800px;
+	display:block;
+	font-size: 28px;
+	width: 75%;
+	height: 20px;
+	border-radius: 5px;
+	text-align: center;
+	padding:30px 10px;
+	outline-style: none;
+	margin-bottom: 20px
+}
+/*提示信息*/
+.promptMessage{
+	position:absolute;
+	top:46%;
+	left:0;
+	width:100%;
+	z-index:99999;
+}
+.promptMessage > h1{
+	background:rgba(0,0,0,0.8);
+	box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+	line-height:34px;
+	color:white;
+	padding:20px 20px;
+	display:table;
+	margin:0 auto;
+	font-size:28px;
+	border-radius:6px;
+	text-align:center;
+}
+.box{
+	width:100%;
+	float:left;
+	line-height:40px;
+	font-size:30px;
+	color:hsla(0,0%,0%,1.00);
+}
+/*微信头像部分*/
+.wchat-message{
+	width:200px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.userImg{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius:50%; 
+}
+.wchat-message span{
+	display: block;
+	font-size: 30px;
+	padding: 14px 5px;
+	font-weight: bold;
+}
+.foot-image{
+	display:block;
+	width: 30%;
+	margin: 0 auto;
+	margin-top:130px; 
+}

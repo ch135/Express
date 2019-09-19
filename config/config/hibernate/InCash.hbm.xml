@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.express.model.InCash" table="InCash">
+		<id name="id" type="string">
+			<generator class="uuid" />
+		</id>
+		<property name="mobile" type="string" />
+		<property name="name" type="string" />
+		<property name="inCashType" type="string" />
+		<property name="balance" type="java.lang.Double" />
+		<property name="date" type="java.sql.Timestamp"></property>
+		<property name="account" type="string" />
+		<property name="results" type="boolean" />
+		<property name="dealDate" type="java.sql.Timestamp"></property>
+	</class>
+</hibernate-mapping>

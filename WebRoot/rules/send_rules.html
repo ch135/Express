@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>发货人管理条例</title>
+<style>
+
+body {
+    
+    font-family: 'trebuchet MS', 'Lucida sans', Arial;
+    font-size: 14px;
+    color: #444;
+}
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;    
+}
+
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+.bordered th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+@media (max-width: 767px) {
+.table-responsive {
+width: 100%;
+margin-bottom: 15px;
+overflow-x: scroll;
+overflow-y: hidden;
+border: 1px solid #dddddd;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+-webkit-overflow-scrolling: touch;
+}
+.table-responsive > .table {
+margin-bottom: 0;
+}
+.table-responsive > .table > thead > tr > th,
+.table-responsive > .table > tbody > tr > th,
+.table-responsive > .table > tfoot > tr > th,
+.table-responsive > .table > thead > tr > td,
+.table-responsive > .table > tbody > tr > td,
+.table-responsive > .table > tfoot > tr > td {
+white-space: nowrap;
+}
+
+
+
+
+
+  
+</style>
+</head>
+
+<body>
+
+<h2>发货人管理条例（2015年12月）</h2>
+<div class="table-responsive">
+<table class="bordered">
+    <thead>
+
+    <tr>
+        <th rowspan="2">编号</th>        
+        <th rowspan="2">管理规则</th>
+        <th colspan="3">一个月</th>
+    </tr>
+    <tr>
+       <th>一次</th>
+       <th>两次</th>
+       <th>三次以上</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>1</td>        
+        <td>恶意取消订单（已给快快送快递人造成损失，扣除订单价格20%）</td>
+        <td>警告</td>
+        <td>停用发货2日</td>
+        <td>停用发货7日</td>
+    </tr>        
+    <tr>
+        <td>2</td>        
+        <td>拒绝补偿因收发货人原因造成的二次运费</td>
+        <td>警告</td>
+        <td>停用发货2日</td>
+        <td>停用发货7日</td>
+    </tr>
+    <tr>
+        <td>3</td>        
+        <td>故意填报不实订单信息：地址、电话、重量、价值（平台有权利取消订单或扣除差额补贴快快送快递人）</td>
+        <td>警告</td>
+        <td>停用发货7日</td>
+        <td>停用发货30日</td>
+    </tr>    
+    <tr>
+        <td>4</td>        
+        <td>在重要提示中指定**快快送快递人接单</td>
+        <td>停用发货2日</td>
+        <td>停用发货15日</td>
+        <td>没机会啦</td>
+
+    </tr>
+    <tr>
+        <td>5</td>        
+        <td>私下要求快快送快递人捎带货物</td>
+        <td>停用发货7日</td>
+        <td>停用发货30日</td>
+        <td>没机会啦</td>
+    </tr>
+    <tr>
+        <td>6</td>        
+        <td>不配合平台的协调取证或态度恶劣</td>
+        <td>停用发货7日</td>
+        <td>停用发货15日</td>
+        <td>停用发货30日</td>
+    </tr>
+    <tr>
+        <td>7</td>        
+        <td>恶意投诉、差评快快送快递人</td>
+        <td>停用发货7日</td>
+        <td>停用发货30日</td>
+        <td>没机会啦</td>
+    </tr>    
+    <tr>
+
+        <td>8</td>        
+        <td>恶意索赔：虚报货物价值、不合理赔偿要求（平台有权拒绝赔付）</td>
+        <td>停用发货30日</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr>
+    <tr>
+        <td>9</td>        
+        <td>任何故意不尊重快快送快递人的行为</td>
+        <td>停用发货30日</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr>
+    <tr>
+        <td>10</td>        
+        <td>套取平台奖励，发布和接收不合理订单（平台保留追究损失的权利并冻结相关人员账户及资金）</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr> 
+     <tr>
+        <td>11</td>        
+        <td>恶意发布不真实订单以骗取快快送快递人获利</td>
+        <td>封号并移交公安机关</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr> 
+     <tr>
+        <td>12</td>        
+        <td>恶意发布违禁品（如情节严重平台有权移交相关部门处理）</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr> 
+     <tr>
+        <td>13</td>        
+        <td>任何恶意损害快快送平台信誉的行为</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+        <td>没机会啦</td>
+    </tr> 
+
+</table>
+</div>
+
+
+
+
+
+    
+
+</body>
+</html>

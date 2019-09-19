@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'iconfont';
+    src: url('login_css/iconfont.eot'); /* IE9*/
+    src: url('login_css/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('login_css/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('login_css/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('login_css/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+body{
+	background-color: #EAEAEA !important;
+	background: url('../img/login_bg.jpg') no-repeat;
+	background-size:cover;
+	min-height: 500px;
+	min-width: 1100px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0px;
+}
+
+.login_main{
+	width: 100%;
+	min-height: 500px;
+}
+
+.login_box{
+	width: 70%;
+	min-width: 840px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.login_box span.title{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-left: 35px;
+
+}
+
+.login{
+	width: 350px;
+	padding-bottom: 30px;
+	background-color:white;
+	float: right;
+	border:1px solid #6F7377;
+}
+
+.login_row{
+	width: 80%;
+	height: 50px;
+	border:1px solid #AEB3A6;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.login_row i{
+	padding:0px 10px;
+}
+
+.input{
+	font-size: 16px;
+	border: 0;
+	display: inline-block;
+	margin-top: 8px;
+	padding: 0px 5px;
+	outline: none;
+	height: 30px;
+	width: 200px;
+}
+
+.login_box input[type=checkbox]{
+	border: 1px solid #AEB3A6;
+}
+
+.login_box ul{
+	padding-top: 30px;
+	padding-left: 35px;
+}
+
+.denglu{
+	border: none;
+}
+
+.denglu .submit{
+	padding: 10px 30px;
+	border-radius: 3px;
+	border-style:none;
+	color: white; 
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.denglu .submit:hover{
+	cursor: pointer;
+	background-color: #3F8F36;
+}
+
+.error_message{
+	display: block;
+	padding-left: 35px;
+	font-style: 17px;
+	color: red;
+}

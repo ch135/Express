@@ -1,0 +1,104 @@
+
+table tr{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.finish_order_box{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+table tr td img{
+	width: 40px;
+	height: 40px;
+}
+
+table thead tr th{
+	font-size: 14px !important;
+}
+
+table thead tr th img{
+	width: 14px;
+	height: 14px;
+	padding: 0 6px;
+}
+
+table tbody tr td{
+	font-size: 14px !important;
+}
+
+table.information tr td img{
+	width: 70px;
+	height: 70px;
+}
+
+table tr td img:hover{
+	cursor: pointer;
+}
+
+table tbody tr td button{
+	vertical-align: 50%;
+	width: 80px;
+	height: 40px;
+	font-size: 10px;
+}
+
+span.div_title{
+	display: block;
+	padding: 8px 35px;
+	font-size: 15px;
+	background-color: #696F72;
+	color: white;
+}
+
+.basic_message{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	min-height: 50px;
+	line-height: 40px;
+}
+
+.basic_message span{
+	font-size: 15px;
+}
+
+.basic_message_title{
+	margin-left: 30px;
+	color: red;
+}
+
+.yonghu_message{
+	width: 100%;
+}
+
+.finish_order_title{
+	font-size: 15px !important;
+	margin-left: 30px;
+	font-weight: bolder;
+}
+
+.picture_show{
+	margin: 0 auto;
+}
+
+.picture_show .picture{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-left: 25px;
+}
+
+.picture{
+	border:1px solid #696F72;
+	cursor: pointer;
+}
+
+button.timeselect{
+	vertical-align: 50%;
+	width: 80px;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+}

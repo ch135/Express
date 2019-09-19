@@ -1,0 +1,55 @@
+
+.user_message_box{
+	width: 100%;
+}
+
+.user_message_table{
+	padding:0px 10px;
+	margin: 0 auto;
+}
+
+.user_message_box{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+table tr td img{
+	width: 40px;
+	height: 40px;
+}
+
+table thead tr th{
+	outline-style: none;
+}
+
+table thead tr th img{
+	width: 10px;
+	height: 14px;
+	padding: 0 6px;
+}
+
+table.information tr td img{
+	width: 80px;
+	height: 80px;
+}
+
+table tr td img:hover{
+	cursor: pointer;
+}
+
+.user_table tbody tr:hover{
+	cursor: pointer;
+	background-color:#FBFBFB;
+}
+
+.user-search-li{
+	margin-left:250px;
+	padding-right:5px;
+	border:1px solid #8C8C8C;
+}
+
+.user-search_btn:hover{
+	cursor: pointer;
+}
+
+

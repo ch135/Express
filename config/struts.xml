@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.multipart.maxSize" value="52428800" />
+	<constant name="struts.multipart.saveDir" value="/Express/tmp"/>
+	<include file="config/struts/admin-struts.xml"></include>
+	<include file="config/struts/pay-struts.xml"></include>
+	<include file="config/struts/user-struts.xml"></include>
+	<include file="config/struts/express-struts.xml"></include>
+	<include file="config/struts/order-struts.xml"></include>
+</struts>

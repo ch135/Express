@@ -1,0 +1,90 @@
+
+table{
+	padding:0px 20px;
+}
+
+
+table tr td img{
+	width: 40px;
+	height: 40px;
+}
+
+table thead tr th{
+	outline-style: none;
+}
+
+table thead tr th img{
+	width: 10px;
+	height: 14px;
+	padding: 0 6px;
+}
+
+.information_box{
+	padding-top:0px !important;
+}
+
+
+table.information tr td img{
+	width: 80px;
+	height: 80px;
+}
+
+table tr td img:hover{
+	cursor: pointer;
+}
+
+.main_content_text{
+	border-top: 1px solid #AEB3A6;
+}
+
+.text{
+	display:block;
+	margin: 0 auto;
+	margin-top:30px;
+	padding: 10px 10px;
+	font-size: 13px;
+}
+
+.sub_ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sub{
+	padding: 10px 15px;
+	border-style:none;
+	color: white;
+	margin-left: 45px;
+}
+
+.select:hover{
+	cursor: default;
+}
+
+.clientcheck-ul{
+	margin-left:40px;
+	margin-top:20px;
+}
+
+.clientcheck-ul li{
+	display : inline-block;
+}
+
+
+/*提示框样式*/
+.change{
+	width: 400px;
+	height: 150px;
+}
+
+.error{
+	margin-left: 10px;
+}
+
+.tishi{
+	padding-top: 10px;
+	display: block;
+	font-size: 18px !important;
+	line-height: 130px;
+	text-align: center;
+}

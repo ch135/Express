@@ -1,0 +1,24 @@
+.search-box{
+	padding: 20px 50px;
+}
+.user_table{
+	border-top:1px solid #AEB3A6;
+}
+.title_option{
+	border-bottom:1px solid #AEB3A6;
+}
+.search-box input{
+	padding: 10px 10px;
+	width:250px;
+}
+.search-box button{
+	padding:10px 15px;
+	border-style:none;
+	background-color:#44B549;
+	color:#ffffff;
+	margin-left:10px;
+	cursor : pointer;
+}
+table tbody tr:hover{
+	background-color: #ECECEC;
+}

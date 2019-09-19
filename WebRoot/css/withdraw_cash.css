@@ -1,0 +1,37 @@
+
+.user_message_box{
+	width: 100%;
+}
+
+.user_message_table{
+	padding-top: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.user_message_box{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+
+.withdraw_cash_btn{
+	margin-left: 450px !important;
+	border-style: none;
+	padding: 10px 10px !important;
+	color: white !important;
+	font-size: 15px !important;
+}
+
+table{
+	font-size:16px;
+	font-weight: normal;
+}
+
+table thead tr th{
+	outline-style: none;
+}
+
+table tbody tr:hover{
+	background-color:#ECECEC;
+}

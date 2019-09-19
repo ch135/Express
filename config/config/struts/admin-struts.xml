@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	
+	<struts>
+		<package name="admin" namespace="/admin" extends="struts-default">
+			<action name="*_*" class="com.express.admin.action.{1}Action" method="{2}">
+				<result name = "goLogin">/WEB-INF/TCKD/login.jsp</result>
+				<!-- <result name = "input">/WEB-INF/TCKD/login.html</result> -->
+				<result name = "login_success">/WEB-INF/TCKD/index.jsp</result>
+				<result name = "login_failure">/WEB-INF/TCKD/login.jsp</result>
+				<result name = "Identity">/WEB-INF/TCKD/user_check.jsp</result>
+				<result name = "order">/admin/orderPage/order.jsp</result>
+				<result name = "advice">/WEB-INF/TCKD/user_advice.jsp</result>
+				<result name = "allUser">/WEB-INF/TCKD/user_message.jsp</result>
+				<result name = "null">/admin/null.jsp</result>
+				<result name = "close_success">/admin/msgPage/success.jsp</result>
+				<result name = "login_out">/WEB-INF/TCKD/login.jsp</result>
+				<result name = "admin">/admin/adminPage/reRole.jsp</result>
+				<result name = "make_success">/admin/adminPage/creatAdmin.jsp</result>
+				<result name = "make_fail">/admin/null.jsp</result>
+				<result name = "announcement">/WEB-INF/TCKD/announcement.jsp</result>
+				<result name = "unfinshOrder">/WEB-INF/TCKD/unfinish_order.jsp</result>
+				<result name = "overtimeOrder">/WEB-INF/TCKD/overtime_order.jsp</result>
+				<result name = "finshOrder">/WEB-INF/TCKD/finish_order.jsp</result>
+				<result name = "app_upload">/WEB-INF/TCKD/app_upload.jsp</result>
+				<result name = "inCash">/WEB-INF/TCKD/withdraw_cash.jsp</result>
+				<result name = "add_admin">/WEB-INF/TCKD/add_admin.jsp</result>
+				<result name = "add_city_admin">/WEB-INF/TCKD/add_city_admin.jsp</result>
+				<result name = "change">/WEB-INF/TCKD/change_authority.jsp</result>
+				<result name = "couponPage">/WEB-INF/TCKD/activity.jsp</result>
+				<result name = "details">/WEB-INF/TCKD/transactionDetails.jsp</result>
+				<result name = "charge">/WEB-INF/TCKD/rechargeInquiry.jsp</result>
+				<result name="getCourierOrder">/WEB-INF/TCKD/user_order.jsp</result>
+				 <result  type= "redirectAction" name="toinCash">
+				 	<param name="actionName">Admin_getInCashRecord</param> 
+ 					<param name="times">first</param>  
+				 </result> 
+				
+			</action>
+		</package>	
+	
+	</struts>

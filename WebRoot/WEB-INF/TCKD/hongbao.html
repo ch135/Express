@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5,maximum-scale=0.5,user-scalable=yes">
+	<link rel="stylesheet" href="red_bag.css">
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="Prompt_Message.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/juicer/0.6.14/juicer-min.js"></script>
+	<title>红包</title>
+</head>
+<body>
+	<div class="title-img-box">
+		<img src="ico_splash_5.png" alt="" class="title-img">
+	</div>
+	<div class="content-box">
+		<!-- 透明层盒子 -->
+		<div class="list-box"></div>
+		<div class="activity_rule">
+			<h1>活动规则</h1>
+			<ul class="rule-list">
+				<li>
+					<div class="circle">1</div>
+					<span>使用红包时的下单手机号需为抢红包时使用的手机号</span>
+				</li>
+				<li>
+					<div class="circle">2</div>
+					<span>发放至手机号的红包需要在App用手机号注册才能使用</span>
+				</li>
+				<li>
+					<div class="circle">3</div>
+					<span>发放至快快送账户的红包登陆后即可使用</span>
+				</li>
+				<li>
+					<div class="circle">4</div>
+					<span>每张订单仅限使用一张红包，红包不找零</span>
+				</li>
+				<li>
+					<div class="circle">5</div>
+					<span>快快送保留法律范围内允许的对活动的解释权</span>
+				</li>
+			</ul>
+		</div>
+		<img src="icon_name.png" alt="" class="foot-image">
+	</div>
+	<script type="text/template" id="wchatMessageTpl">
+			{@if flag == 1}
+				<div class="wchat-message">
+					<img src=${Imgurl} alt="" class="userImg">
+					<span>${userName}</span>
+				</div>	
+				{@if bindPhone == 0}
+					<div class="phoneNum">
+						<input type="text" placeholder="输入您的手机号">
+						<button>领取红包</button>
+					</div>
+				{@/if}
+			{@else}
+				<h1 style="text-align:center;padding:20px 10px;font-size:28px;">授权失败，请在微信内重新打开并授权</h1>
+			{@/if}	
+	</script>
+	<script type="text/template" id="redBagTpl">
+		<div style="width:100%;">
+			{@if haveBag == 1}
+				<div class="redBag" style="">
+					<div class="money">
+						<h1>￥${money}</h1>
+					</div>
+					<div class="useRule">
+						<ul>
+							<li>满${minMoneyUse}元可用</li>
+							<li>${deadLine}日到期</li>
+						</ul>
+					</div>
+				</div>
+				<span class="tishi">红包已放至账户${phoneNum} 登录APP即可使用</span>
+				<button class="btn">立即使用</button>
+			{@else}
+				<h1 class="tooLate">来晚了,红包已经被抢光啦！</h1>
+			{@/if}
+		</div>
+	</script>
+	<script type="text/javascript" src="hongbao.js"></script>
+</body>
+</html>

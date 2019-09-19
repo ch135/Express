@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.CuserComment" table="Cuser_Comment">
+        <id name="cuserid"  type="string">
+            <generator class="assigned"/>
+        </id>
+        <property name="grade" type="float"/>
+        <property name="attitude" type="int"/>
+        <property name="speed" type="int"></property>
+        <property name="integrity" type="int"></property>
+        <property name="good" type="int"></property>
+        <property name="onTime" type="int"></property>
+        <property name="timce" type="int"></property>
+    </class>
+</hibernate-mapping>

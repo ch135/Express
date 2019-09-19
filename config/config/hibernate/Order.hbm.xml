@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.express.model.Order" table="order_record">
+  <id name="orderId" type="string">
+   <generator class="assigned"/>
+  </id>
+  <property name="userid" type="string"/>
+  <property name="requestDate" type="java.sql.Timestamp"/>
+  <property name="receiveDate" type="java.sql.Timestamp"/>
+  <property name="finshDate" type="java.sql.Timestamp"/>
+  <property name="sendName" type="java.lang.String"/>
+  <property name="sendLongitude" type="java.lang.Double"/>
+  <property name="sendLatitude" type="java.lang.Double"/>
+  <property name="sendAddress" type="java.lang.String"/>
+  <property name="sendMobile" type="java.lang.String"/>
+  <property name="receiveName" type="java.lang.String"/>
+  <property name="receiveLongitude" type="java.lang.Double"/>
+  <property name="receiveLatitude" type="java.lang.Double"/>
+  <property name="receiveAddress" type="java.lang.String"/>
+  <property name="receiveMobile" type="java.lang.String"/>
+  <property name="goodsDetail" type="java.lang.String"/>
+  <property name="goodsWeight" type="int"/>
+  <property name="goodsPic" type="java.lang.String"/>
+  <property name="supportValue" type="int"/>
+  <property name="orderFare" type="java.lang.Double"/>
+  <property name="orderRemark" type="java.lang.String"/>
+  <property name="orderStaus" type="int"/>
+  <property name="courierid" type="java.lang.String"/>
+  <property name="cname" type="string"></property>
+  <property name="cmobile" type="string"></property>
+  <property name="cpath" type="string"></property>
+  <property name="cgrade" type="float"></property>
+  <property name="orderGrade" type="float"></property>
+  <property name="couponId" type="string"></property>
+  <property name="coupon" type="java.lang.Double"></property>
+  <property name="goodsPrice" type="java.lang.Double"></property>
+  <property name="orderType" type="string"></property>
+  <property name="addition" type="java.lang.Double"></property>
+  <property name="payFare" type="java.lang.Double"/>
+  
+   </class>
+</hibernate-mapping>

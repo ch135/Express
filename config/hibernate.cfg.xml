@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+<session-factory>
+	<property name="hibernate.proxool.pool_alias">proxool</property>
+	<property name="hibernate.proxool.xml">proxool.xml</property>
+	<property name="hibernate.connection.provider_class">
+		org.hibernate.proxool.internal.ProxoolConnectionProvider
+	</property>
+	<property name="hibernate.proxool.existing_pool">true</property>
+<!-- 	<property name="hibernate.cache.use_query_cache">true</property> -->
+
+	<property name="hibernate.hbm2ddl.auto">update</property>
+	<property name="show_sql">false</property><!-- 在控制台输出sql语句 -->
+	<property name="format_sql">false</property>
+
+	<property name="current_session_context_class">thread</property>
+	<property name="dialect">org.hibernate.dialect.MySQLMyISAMDialect</property>
+
+	<mapping resource="config/hibernate/Admin.hbm.xml" />
+	<mapping resource="config/hibernate/User.hbm.xml" />
+	<mapping resource="config/hibernate/UserIDcard.hbm.xml" />
+	<mapping resource="config/hibernate/Order.hbm.xml" />
+	<mapping resource="config/hibernate/UserAdvice.hbm.xml" />
+	<mapping resource="config/hibernate/CuserComment.hbm.xml" />
+	<mapping resource="config/hibernate/Expense.hbm.xml" />
+	<mapping resource="config/hibernate/SysNotice.hbm.xml" />
+	<mapping resource="config/hibernate/APPMsg.hbm.xml" />
+	<mapping resource="config/hibernate/APPVersion.hbm.xml" />
+	<mapping resource="config/hibernate/InCash.hbm.xml" />
+	<mapping resource="config/hibernate/UserChargeMoney.hbm.xml" />
+	<mapping resource="config/hibernate/UserComplaint.hbm.xml" />
+	<mapping resource="config/hibernate/CompanyPaymentDetails.hbm.xml" />
+	<mapping resource="config/hibernate/Coupon.hbm.xml" />
+	<mapping resource="config/hibernate/CouponType.hbm.xml" />
+	<mapping resource="config/hibernate/ShareCoupon.hbm.xml" />
+	<mapping resource="config/hibernate/ShareWeiXin.hbm.xml" />
+	<mapping resource="config/hibernate/CompanyMessage.hbm.xml" />
+	<mapping resource="config/hibernate/AreaNorm.hbm.xml" />
+</session-factory>
+
+</hibernate-configuration>

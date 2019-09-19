@@ -1,0 +1,126 @@
+
+.main_content{
+	width: 930px;
+	background-color: white;
+	float: left;
+	border:1px solid #AEB3A6;
+	padding-bottom: 60px;
+}
+
+.main_content_title{
+	display: block;
+	height: 70px;
+	font-size: 17px;
+	padding-left: 30px;
+	line-height: 90px;
+}
+
+ul.title_option{
+	display: block;
+}
+
+ul.title_option li{
+	display: inline-block;
+	outline:none;
+}
+
+ul.title_option a{
+	margin: 0;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 2px;
+	display:inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 3px solid white;	
+	outline:none;
+}
+
+ul.title_option>:first-child>:first-child{
+	padding-left: 30px;
+}
+
+ul.title_option a:hover{
+	border-bottom: 3px solid #B0B0B0;
+}
+
+.select{
+	border-bottom: 3px solid #44B549 !important; 
+}
+
+.main_content_text{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+table tr td img{
+	width: 40px;
+	height: 40px;
+}
+
+table tr td span{
+	font-size: 13px;
+	padding: 8px 15px;
+	border-style:none;
+	color: white; 
+}
+
+table tr td button{
+	padding: 10px 15px;
+	border-style:none;
+	color: white; 
+}
+
+
+table tr td button.ok:hover{
+	cursor: pointer;
+	background-color: #3F8F36;
+}
+
+table tr td button.error:hover{
+	cursor: pointer;
+	background-color: #C8053B;
+}
+
+
+table thead tr th{
+	outline-style: none;
+}
+
+table thead tr th img{
+	width: 10px;
+	height: 14px;
+	padding: 0 6px;
+}
+
+table thead tr th img:hover{
+	cursor: pointer;
+}
+
+table .refuse_reason_input{
+	width:300px;
+	height:38px;
+}
+
+.ok{
+	margin-left:20px;
+}
+
+.check_identity{
+	font-size:13px;
+	padding:6px 6px !important;
+}
+
+.check_identity:hover{
+	background-color:#44B549 !important;
+	cursor:	auto !important;
+}
+
+
+
+
+
+
+
+

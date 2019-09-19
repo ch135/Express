@@ -1,0 +1,66 @@
+
+.user_message_box{
+	width: 100%;
+}
+
+.user_message_table{
+	padding-top: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.user_message_box{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+
+.withdraw_cash_btn{
+	margin-left: 590px !important;
+	border-style: none;
+	padding: 10px 10px !important;
+	color: white !important;
+	font-size: 15px !important;
+}
+
+table{
+	font-size:16px;
+	font-weight: normal;
+}
+
+table{
+	border-top:1px solid #AEB3A6 !important;
+}
+
+table thead tr th{
+	outline-style: none;
+}
+
+table tbody tr:hover{
+	background-color:#ECECEC;
+}
+.select-box{
+	padding-bottom: 20px;
+	padding-left:40px
+}
+.select-box select{
+	padding:8px 10px 
+}
+.btn{
+	padding:10px 15px;
+	border-style:none;
+	background-color:#44B549;
+	color:#ffffff;
+	margin-left:10px;
+	cursor : pointer;
+}
+.TJ{
+	padding:15px 40px;
+	font-size:16px;
+	font-weight: normal;
+}
+.TJ span{
+	margin-left:20px;
+	font-size:16px;
+	font-weight: bold;
+}

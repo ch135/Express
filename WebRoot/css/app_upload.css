@@ -1,0 +1,203 @@
+
+.announcement_table{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.announcement_table tr th{
+	min-width: 250px;
+	border-right: 1px solid #e7e7eb;
+	font-size: 15px;
+}
+
+
+.announcement_table tr td{
+	text-align: left;
+	padding: 0px 30px;
+	font-size: 14px;
+	color: #44463B;
+}
+
+.main_content_text{
+	padding-top: 20px;
+	border-top: 1px solid #AEB3A6;
+}
+
+.text{
+	display:block;
+	margin: 0 auto;
+	padding: 10px 10px;
+	font-size: 13px;
+}
+
+.sub_ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sub{
+	padding: 10px 15px;
+	border-style:none;
+	color: white;
+	margin-left: 45px;
+}
+
+.select:hover{
+	cursor: default;
+}
+
+.app_title{
+	display:block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	margin-left: 50px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+@font-face {font-family: 'iconfont';
+	src: url('font_css_new/iconfont.eot'); /* IE9*/
+	src: url('font_css_new/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('font_css_new/iconfont.woff') format('woff'), /* chrome、firefox */
+	url('font_css_new/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('font_css_new/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+	}
+
+.iconfont{
+	font-family:"iconfont" !important;
+	font-size:16px;font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	transition:all 0.5s !important;
+}
+
+.add_pic_div:hover{
+	border-color:#44B549 !important;
+}
+
+.add_pic_div:hover .iconfont{
+	color:#44B549 !important;
+}
+
+.add_pic_div{
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+	width:140px;
+	height:240px;
+	border:2px dashed #a9b7b7;
+	cursor:pointer;
+	transition:all 0.5s;
+}
+
+.iconfont{
+	line-height:240px; 
+	text-align:center; 
+	display:block;
+	font-size:50px;
+	color:#a9b7b7;
+}
+
+.prompt{
+	display: inline-block;
+	margin-left:50px;
+	margin-bottom:10px;	
+}
+
+.hidden_div{
+	width:100%;
+}
+
+.add_btn{
+	width:80px;
+	height:35px;
+	color:white;
+	border:none;
+	font-size:15px;
+	margin-left:50px;	
+}
+
+.add_file_div{
+	margin-top:10px;
+	margin-left:50px;
+	width:140px;
+	height:240px;
+	border:2px dashed #a9b7b7;
+	cursor:pointer;
+	transition:all 0.5s;	
+}
+
+.add_file_div:hover{
+	border-color:#44B549 !important;
+}
+
+.add_file_div:hover .iconfont{
+	color:#44B549 !important;
+}
+
+.upload_apk_name{
+	margin-left: 50px;
+	color:#44B549;
+}
+
+.select_appType{
+	width:160px;
+	height:30px;
+	margin-left:50px;
+}
+
+.input_appVersion{
+	height:30px;
+	width:200px;
+	margin-left:50px;
+}
+
+.app_title{
+	margin-top:20px;
+}
+
+.apk_upload_btn{
+	margin-top:30px !important;
+	margin-bottom:10px;
+	display:block;
+}
+
+.show_son{
+	margin-left:50px;
+	margin-top:5px;
+	width:105px;
+	height:10px;
+	border-radius:5px;
+	overflow:hidden;
+	background-color:#a9b7b7;
+	display:none;
+}
+
+.son{
+	height:10px;
+	width:40%;
+	background-color:#44B549;
+}
+
+
+/*提示框样式*/
+.change{
+	width: 400px;
+	height: 150px;
+}
+
+.error{
+	margin-left: 10px;
+}
+
+.tishi{
+	padding-top: 10px;
+	display: block;
+	font-size: 18px !important;
+	line-height: 130px;
+	text-align: center;
+}
+
+

@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+body {
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 14px;
+	color: #444;
+}
+
+table {
+	*border-collapse: collapse; /* IE7 and lower */
+	border-spacing: 0;
+	width: 100%;
+}
+
+.zebra {
+	border: solid #ccc 1px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-moz-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
+}
+
+.zebra tr:hover {
+	background: #fbf8e9;
+	-o-transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.zebra td,.zebra th {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+.zebra th {
+	background-color: #dce9f9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc),
+		to(#dce9f9));
+	background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	border-top: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.zebra td:first-child,.zebra th:first-child {
+	border-left: none;
+}
+
+.zebra th:first-child {
+	-moz-border-radius: 6px 0 0 0;
+	-webkit-border-radius: 6px 0 0 0;
+	border-radius: 6px 0 0 0;
+}
+
+.zebra th:last-child {
+	-moz-border-radius: 0 6px 0 0;
+	-webkit-border-radius: 0 6px 0 0;
+	border-radius: 0 6px 0 0;
+}
+
+.zebra th:only-child {
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.zebra tr:last-child td:first-child {
+	-moz-border-radius: 0 0 0 6px;
+	-webkit-border-radius: 0 0 0 6px;
+	border-radius: 0 0 0 6px;
+}
+
+.zebra tr:last-child td:last-child {
+	-moz-border-radius: 0 0 6px 0;
+	-webkit-border-radius: 0 0 6px 0;
+	border-radius: 0 0 6px 0;
+}
+
+@media ( max-width : 767px) {
+	.table-responsive {
+		width: 100%;
+		margin-bottom: 15px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		border: 1px solid #dddddd;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-responsive>.table {
+		margin-bottom: 0;
+	}
+	.table-responsive>.table>thead>tr>th,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>td
+		{
+		white-space: nowrap;
+	}
+}
+</style>
+</head>
+
+<body>
+	<h2>快快送快递人管理条例（2016年6月）</h2>
+	<div class="table-responsive">
+		<table class="zebra">
+			<thead>
+				<tr>
+					<th rowspan="2">条款</th>
+					<th rowspan="2">管理规则</th>
+					<th colspan="2">30日内</th>
+				</tr>
+				<tr>
+					<th>违反1次</th>
+					<th>附加处罚</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>第1条</td>
+				<td>接单后未1分钟内致<br>电或致电未说“快快<br>送快递人“
+				</td>
+				<td>平台诚信下调5分</td>
+				<td>诚信分为0时限制接单7日</td>
+			</tr>
+			<tr>
+				<td>第2条</td>
+				<td>接单后未取货取消订单</td>
+				<td>平台诚信下调10分</td>
+				<td>诚信分为0时限制接单7日</td>
+			</tr>
+			<tr>
+				<td>第3条</td>
+				<td>接单后并已揽件取消订单</td>
+				<td>平台诚信下调20分</td>
+				<td>诚信分为0时限制接单7日</td>
+			</tr>
+			<tr>
+				<td>第4条</td>
+				<td>未经异常申报导致超<br>时取货或超时送达
+				</td>
+				<td>限制接单7日</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>第5条</td>
+				<td>未经同意擅自不送货<br>上门或因非收货人签<br>收造成客户投诉
+				</td>
+				<td>限制接单7日</td>
+				<td>——</td>
+			</tr>
+
+			<tr>
+				<td>第6条</td>
+				<td>因服务态度、不良行<br>为等导致客户投诉
+				</td>
+				<td>限制接单7日</td>
+				<td>——</td>
+			</tr>
+			<tr>
+				<td>第7条</td>
+				<td>账号非本人使用，引<br>发客户投诉
+				</td>
+				<td>限制接单7日</td>
+				<td>限制双方接单功能并<br>冻结账户余额
+				</td>
+			</tr>
+			<tr>
+				<td>第8条</td>
+				<td>虚假申报异常（虚假<br>向平台反馈情况或未<br>经客户同意延长订单<br>时效）
+				</td>
+				<td>永久限制接单</td>
+				<td>——</td>
+			</tr>
+			<tr>
+				<td>第9条</td>
+				<td>恶意接单</td>
+				<td>永久限制接单</td>
+				<td>——</td>
+			</tr>
+			<tr>
+				<td>第10条</td>
+				<td>拒绝赔付理赔款项或<br>恶意转嫁赔偿责任
+				</td>
+				<td>永久限制接单</td>
+				<td>理赔处理完毕前平台<br>会冻结账户余额
+				</td>
+			</tr>
+			<tr>
+				<td>第11条</td>
+				<td>套取平台奖励，接收<br>不合理订单
+				</td>
+				<td>永久限制接单</td>
+				<td>冻结账号及余额，直<br>至案件调查完毕
+				</td>
+			</tr>
+			<tr>
+				<td>第12条</td>
+				<td>私下为平台客户送货<br>或擅自向客户多收取<br>费用
+				</td>
+				<td>永久限制接单</td>
+				<td>——</td>
+			</tr>
+			<tr>
+				<td>第13条</td>
+				<td>任何恶意损害人人快<br>递平台信誉的行为
+				</td>
+				<td>永久限制接单</td>
+				<td>——</td>
+			</tr>
+
+			</div>
+</body>
+</html>

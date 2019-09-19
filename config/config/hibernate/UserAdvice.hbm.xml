@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.express.model.UserAdvice" table="user_advice">
+  <id name="id" type="string">
+   <generator class="uuid"/>
+  </id>
+  <property name="username" type="string"/>
+  <property name="path" type="string"/>
+  <property name="mobile" type="string"/>
+  <property name="date" type="java.sql.Timestamp"/>
+  <property name="advice" type="java.lang.String"/>
+ </class>
+</hibernate-mapping>

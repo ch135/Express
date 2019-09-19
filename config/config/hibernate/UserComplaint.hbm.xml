@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.UserComplaint" table="UserComplaint">
+        <id name="id"  type="string">
+            <generator class="uuid"/>
+        </id>
+        <property name="userId" type="string"/>
+        <property name="cuserId" type="string"/>
+        <property name="name" type="string"/>
+        <property name="cname" type="string"/>
+        <property name="date" type="java.sql.Timestamp"></property>
+        <property name="content" type="string"/>
+        <property name="orderId" type="string"/>
+        <property name="results" type="boolean"/>
+    </class>
+</hibernate-mapping>

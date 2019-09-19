@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.UserIDcard" table="UserIDcard">
+        <id name="id"  type="string">
+            <generator class="assigned"/>
+        </id>
+        <property name="mobile" type="java.lang.String"/>
+        <property name="name" type="java.lang.String"/>
+        <property name="icon" type="java.lang.String"/>
+        <property name="identity" type="java.lang.String"/>
+        <property name="sex" type="java.lang.String"/>
+        <property name="path1" type="java.lang.String"></property>
+        <property name="path2" type="java.lang.String"></property>
+        <property name="path3" type="java.lang.String"></property>
+        <property name="reason" type="java.lang.String"></property>
+        <property name="results" type="java.lang.String"></property>
+    </class>
+</hibernate-mapping>

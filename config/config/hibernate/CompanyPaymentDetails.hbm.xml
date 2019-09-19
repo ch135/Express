@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.express.model.CompanyPaymentDetails" table="CompanyPaymentDetails">
+          <id name="id" type="string">
+		   <generator class="uuid"/>
+		  </id>
+        <property name="orderId" type="string"/>
+        <property name="userId" type="string"/>
+        <property name="name" type="string"/>
+        <property name="money" type="double"/>
+        <property name="date" type="java.sql.Timestamp"></property>
+        <property name="record" type="string"/>
+    </class>
+</hibernate-mapping>
